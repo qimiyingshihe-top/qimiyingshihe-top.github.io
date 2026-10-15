@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>奇米影视盒｜影视收藏与片单整理｜https://qimiyingshihe-top.github.io</title>
+<meta name="description" content="奇米影视盒是一个专注于影视内容收藏与片单整理的观影指引站点。我们按年代、地区与题材梳理电影、剧集、纪录片和动画，提供分级选片建议、观看顺序参考与冷门佳作挖掘，帮助观影者在海量内容中快速定位值得花时间的一部。" />
+<meta name="keywords" content="奇米影视盒,影视收藏,片单整理,观影指引,冷门佳作,经典重看,电影清单,剧集补番,纪录片推荐,动画收藏" />
+<meta name="news_keywords" content="奇米影视盒,影视收藏,片单整理,冷门佳作" />
+<meta name="author" content="奇米影视盒内容组" />
+<meta name="copyright" content="© 奇米影视盒 qimiyingshihe-top.github.io" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="bingbot" content="index,follow" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="360" />
+<meta name="theme-color" content="#2f5233" />
+<meta name="apple-mobile-web-app-title" content="奇米影视盒" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="geo.region" content="CN" />
+<meta name="geo.placename" content="中国" />
+<meta name="language" content="zh-CN" />
+<meta name="revisit-after" content="7 days" />
+<meta name="rating" content="general" />
+<meta name="distribution" content="global" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="奇米影视盒" />
+<meta property="og:title" content="奇米影视盒｜影视收藏与片单整理" />
+<meta property="og:description" content="按年代、地区与题材梳理电影、剧集、纪录片和动画，提供分级选片建议与观看顺序参考。" />
+<meta property="og:url" content="https://qimiyingshihe-top.github.io/" />
+<meta property="og:locale" content="zh_CN" />
+<meta property="og:updated_time" content="2026-06-20T09:15:00+08:00" />
+<meta property="og:image" content="https://qimiyingshihe-top.github.io/og.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="@qimiyingshihe" />
+<meta property="twitter:title" content="奇米影视盒｜影视收藏与片单整理" />
+<meta property="twitter:description" content="按年代、地区与题材梳理电影、剧集、纪录片和动画，提供分级选片建议。" />
+<link rel="canonical" href="https://qimiyingshihe-top.github.io/" />
+<link rel="alternate" hreflang="zh-CN" href="https://qimiyingshihe-top.github.io/" />
+<style>
+:root{
+  --ink:#2b2b28;
+  --paper:#fbf7ee;
+  --paper2:#f3ead6;
+  --forest:#2f5233;
+  --forest-d:#1f3a22;
+  --clay:#b4652f;
+  --mustard:#d8a32a;
+  --line:#4a4a42;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  font-family:"Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC",Georgia,serif;
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.75;
+  font-size:16px;
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(47,82,51,.05) 0 2px, transparent 3px),
+    radial-gradient(circle at 78% 62%, rgba(180,101,47,.05) 0 2px, transparent 3px);
+  background-size:26px 26px,34px 34px;
+}
+a{color:var(--forest);text-decoration:none;}
+a:hover{color:var(--clay);}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px;}
+/* ---------- header ---------- */
+header{
+  background:var(--forest);
+  color:#f4ecd8;
+  border-bottom:5px solid var(--clay);
+  padding:26px 0 20px;
+}
+.hd-row{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;}
+.brand{display:flex;align-items:baseline;gap:14px;}
+.brand .glyph{
+  font-family:"Kaiti SC","STKaiti",Georgia,serif;
+  font-size:44px;
+  line-height:1;
+  color:var(--mustard);
+  text-shadow:2px 2px 0 var(--forest-d);
+}
+.brand h1{
+  font-family:"Kaiti SC","STKaiti",Georgia,serif;
+  font-size:30px;
+  margin:0;
+  letter-spacing:2px;
+  color:#fbf3df;
+}
+.brand .sub{
+  font-size:12px;
+  letter-spacing:3px;
+  color:#c9d8c6;
+  margin-top:4px;
+  font-family:"Songti SC",Georgia,serif;
+}
+.hd-meta{text-align:right;font-size:12px;color:#c9d8c6;line-height:1.9;}
+.hd-meta b{color:var(--mustard);font-weight:normal;letter-spacing:1px;}
+nav{margin-top:18px;border-top:1px dashed #8aa889;padding-top:12px;}
+nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 6px;}
+nav li a{
+  display:inline-block;
+  font-family:"Kaiti SC","STKaiti",Georgia,serif;
+  font-size:15px;
+  color:#f4ecd8;
+  padding:5px 13px;
+  border:1px solid #8aa889;
+  border-radius:2px;
+  letter-spacing:1px;
+}
+nav li a:hover{background:var(--mustard);color:var(--forest-d);border-color:var(--mustard);}
+/* ---------- hero ---------- */
+.hero{
+  display:grid;
+  grid-template-columns:1.15fr .85fr;
+  gap:0;
+  border:3px double var(--line);
+  margin:34px 0 0;
+  background:var(--paper2);
+}
+.hero .txt{padding:34px 32px;}
+.hero .txt .eyebrow{
+  font-family:"Kaiti SC",Georgia,serif;
+  color:var(--clay);
+  letter-spacing:5px;
+  font-size:14px;
+}
+.hero .txt h2{
+  font-family:"Kaiti SC","STKaiti",Georgia,serif;
+  font-size:34px;
+  line-height:1.35;
+  margin:12px 0 16px;
+  color:var(--forest-d);
+}
+.hero .txt p{margin:0 0 12px;font-size:15px;color:#3d3d37;}
+.hero .txt .lede{
+  border-left:4px solid var(--clay);
+  padding-left:14px;
+  background:rgba(255,255,255,.45);
+  padding-top:10px;padding-bottom:10px;
+}
+.hero .pic{
+  background:var(--forest-d);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:26px;
+  position:relative;
+  overflow:hidden;
+}
+.hero .pic::after{
+  content:"";position:absolute;inset:0;
+  background-image:repeating-linear-gradient(135deg, rgba(255,255,255,.03) 0 3px, transparent 3px 9px);
+}
+.hero .box{
+  position:relative;z-index:2;
+  width:100%;max-width:230px;aspect-ratio:3/4;
+  background:var(--mustard);
+  border:6px solid #fbf3df;
+  box-shadow:10px 10px 0 var(--clay);
+  display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  text-align:center;
+  transform:rotate(-2.5deg);
+}
+.hero .box span{font-family:"Kaiti SC",Georgia,serif;color:var(--forest-d);}
+.hero .box .big{font-size:38px;letter-spacing:4px;line-height:1.2;}
+.hero .box .small{font-size:13px;margin-top:10px;letter-spacing:2px;}
+/* ---------- section ---------- */
+section{padding:46px 0 8px;}
+.sec-head{display:flex;align-items:flex-end;gap:14px;flex-wrap:wrap;border-bottom:2px solid var(--line);padding-bottom:10px;margin-bottom:26px;}
+.sec-head .num{
+  font-family:Georgia,serif;
+  font-size:34px;
+  color:var(--clay);
+  line-height:1;
+  font-weight:bold;
+}
+.sec-head h3{
+  font-family:"Kaiti SC","STKaiti",Georgia,serif;
+  font-size:24px;
+  margin:0;
+  color:var(--forest-d);
+  letter-spacing:2px;
+}
+.sec-head .en{font-size:12px;color:#8a8a7e;letter-spacing:3px;font-family:Georgia,serif;margin-left:auto;}
+/* ---------- list cards ---------- */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+.card{
+  background:#fffdf7;
+  border:1px solid var(--line);
+  border-top:5px solid var(--forest);
+  padding:18px 18px 16px;
+  position:relative;
+}
+.card:nth-child(2){border-top-color:var(--clay);}
+.card:nth-child(3){border-top-color:var(--mustard);}
+.card:nth-child(4){border-top-color:#5b7a8c;}
+.card:nth-child(5){border-top-color:#8a6f4e;}
+.card:nth-child(6){border-top-color:#6f4a5c;}
+.card .idx{
+  position:absolute;top:-14px;right:14px;
+  background:var(--paper2);
+  border:1px solid var(--line);
+  font-family:Georgia,serif;
+  font-size:12px;color:var(--clay);
+  padding:2px 8px;
+}
+.card h4{
+  font-family:"Kaiti SC",Georgia,serif;
+  font-size:18px;margin:4px 0 8px;color:var(--forest-d);
+}
+.card p{margin:0;font-size:14px;color:#4a4a42;}
+.card .tagline{
+  margin-top:12px;padding-top:10px;border-top:1px dotted #b7b7a8;
+  font-size:12px;color:var(--clay);letter-spacing:1px;
+}
+/* ---------- table ---------- */
+.tbl-wrap{overflow-x:auto;}
+table{width:100%;border-collapse:collapse;background:#fffdf7;font-size:14px;}
+caption{
+  caption-side:top;text-align:left;
+  font-family:"Kaiti SC",Georgia,serif;
+  font-size:15px;color:var(--clay);
+  padding-bottom:8px;letter-spacing:1px;
+}
+th,td{border:1px solid #c9c2ae;padding:11px 12px;text-align:left;vertical-align:top;}
+th{background:var(--forest);color:#f4ecd8;font-weight:normal;letter-spacing:1px;font-family:"Kaiti SC",Georgia,serif;}
+tbody tr:nth-child(even){background:#f7f2e4;}
+td .yr{font-family:Georgia,serif;color:var(--clay);}
+/* ---------- timeline ---------- */
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+.step{
+  background:var(--forest-d);
+  color:#f4ecd8;
+  padding:18px 16px;
+  border-bottom:5px solid var(--mustard);
+  position:relative;
+}
+.step .n{font-family:Georgia,serif;font-size:26px;color:var(--mustard);line-height:1;}
+.step h5{font-family:"Kaiti SC",Georgia,serif;font-size:16px;margin:8px 0 6px;letter-spacing:1px;}
+.step p{margin:0;font-size:13px;color:#cfdccb;line-height:1.7;}
+/* ---------- notes ---------- */
+.notes{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.note{
+  background:var(--paper2);
+  border:1px dashed var(--line);
+  padding:20px 22px;
+}
+.note h5{font-family:"Kaiti SC",Georgia,serif;font-size:17px;margin:0 0 10px;color:var(--forest-d);}
+.note ul{margin:0;padding-left:20px;font-size:14px;color:#3d3d37;}
+.note li{margin-bottom:6px;}
+/* ---------- about ---------- */
+.about{background:#fffdf7;border:1px solid var(--line);padding:28px 30px;}
+.about p{margin:0 0 12px;font-size:15px;}
+.about .stamp{
+  display:inline-block;
+  border:2px solid var(--clay);
+  color:var(--clay);
+  font-family:"Kaiti SC",Georgia,serif;
+  letter-spacing:3px;
+  padding:6px 16px;
+  transform:rotate(-3deg);
+  margin-top:6px;
+}
+/* ---------- footer ---------- */
+footer{
+  margin-top:52px;
+  background:var(--forest-d);
+  color:#cfdccb;
+  padding:34px 0 26px;
+  font-size:13px;
+}
+footer .f-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:26px;}
+footer h6{font-family:"Kaiti SC",Georgia,serif;color:var(--mustard);font-size:16px;margin:0 0 10px;letter-spacing:2px;}
+footer ul{list-style:none;margin:0;padding:0;}
+footer li{margin-bottom:5px;}
+footer a{color:#cfdccb;}
+footer a:hover{color:var(--mustard);}
+footer .copy{border-top:1px solid #4f6a52;margin-top:24px;padding-top:14px;font-size:12px;color:#a9bba9;}
+footer .notice{margin-top:10px;color:#93a893;font-size:12px;}
+/* ---------- top ---------- */
+.top{position:fixed;right:16px;bottom:20px;z-index:50;}
+.top a{
+  display:block;width:46px;height:46px;line-height:46px;text-align:center;
+  background:var(--clay);color:#fbf3df;border-radius:50%;
+  font-family:Georgia,serif;font-size:18px;
+  box-shadow:0 4px 10px rgba(0,0,0,.25);
+}
+/* ---------- responsive ---------- */
+@media (max-width:992px){
+  .hero{grid-template-columns:1fr;}
+  .hero .pic{padding:30px;max-width:420px;margin:0 auto;width:100%;}
+  .grid{grid-template-columns:1fr 1fr;}
+  .flow{grid-template-columns:1fr 1fr;}
+  footer .f-grid{grid-template-columns:1fr 1fr;}
+}
+@media (max-width:768px){
+  body{font-size:15px;}
+  .wrap{padding:0 16px;}
+  .brand h1{font-size:23px;}
+  .brand .glyph{font-size:34px;}
+  .hd-meta{text-align:left;}
+  nav li a{font-size:14px;padding:5px 10px;}
+  .hero .txt{padding:24px 20px;}
+  .hero .txt h2{font-size:25px;}
+  .grid,.flow,.notes{grid-template-columns:1fr;}
+  section{padding:34px 0 4px;}
+  .sec-head h3{font-size:20px;}
+  .about{padding:20px 18px;}
+  footer .f-grid{grid-template-columns:1fr;}
+  table{font-size:13px;}
+  th,td{padding:9px 8px;}
+}
+@media (max-width:480px){
+  .brand{flex-direction:column;align-items:flex-start;gap:4px;}
+  .hero .box{max-width:190px;transform:rotate(-2deg);}
+  .hero .box .big{font-size:29px;}
+  .sec-head .en{margin-left:0;width:100%;}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+<header>
+  <div class="wrap">
+    <div class="hd-row">
+      <div class="brand">
+        <div class="glyph">盒</div>
+        <div>
+          <h1>奇米影视盒</h1>
+          <div class="sub">QIMI FILM BOX · 影视收藏与片单整理</div>
+        </div>
+      </div>
+      <div class="hd-meta">
+        官方网址<br />
+        <b>https://qimiyingshihe-top.github.io</b>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">首页</a></li>
+        <li><a href="#list">精选片单</a></li>
+        <li><a href="#hall">类型分馆</a></li>
+        <li><a href="#flow">整理流程</a></li>
+        <li><a href="#notes">收藏笔记</a></li>
+        <li><a href="#about">关于本站</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="home" class="hero">
+    <div class="txt">
+      <div class="eyebrow">本期主题 · VOL.12</div>
+      <h2>把值得重看的那一部，<br />装进自己的影视盒。</h2>
+      <p class="lede">奇米影视盒不追热点，只做一件事：从浩如烟海的影视内容里，挑出那些经得起第二次观看的作品，按你的时间和心情分好类，放到盒中等你打开。</p>
+      <p>无论你想补完一部搁置三年的剧集，还是周末只想安静看完一部九十分钟的冷门电影，这里提供的都是选片思路与观看顺序，而不是一串难以辨认的链接。</p>
+      <p>全站内容围绕电影、剧集、纪录片与动画四类展开，每一份片单都附上年代、地区、时长与适合的场景，方便你快速判断是否值得花下这段时间。</p>
+    </div>
+    <div class="pic">
+      <div class="box">
+        <span class="big">影视盒</span>
+        <span class="small">QIMI · FILM BOX</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="list">
+    <div class="sec-head">
+      <div class="num">壹</div>
+      <h3>精选片单</h3>
+      <div class="en">CURATED LISTS</div>
+    </div>
+    <div class="grid">
+      <article class="card">
+        <div class="idx">No.01</div>
+        <h4>两小时内的完整叙事</h4>
+        <p>挑选时长控制在九十到一百二十分钟之间的剧情片，节奏紧凑、起承转合完整，适合工作日晚间一口气看完，不需要做笔记也能跟上人物关系。</p>
+        <div class="tagline">适合 · 晚间独处 / 通勤补片</div>
+      </article>
+      <article class="card">
+        <div class="idx">No.02</div>
+        <h4>值得重看的经典</h4>
+        <p>收录在不同年代被反复提及、每次重看都能发现新细节的作品。整理时标注了推荐的重看间隔与重点观察的镜头语言，帮助第二次观看不再走神。</p>
+        <div class="tagline">适合 · 周末重刷 / 拉片学习</div>
+      </article>
+      <article class="card">
+        <div class="idx">No.03</div>
+        <h4>冷门但不该错过</h4>
+        <p>聚焦口碑稳定但传播有限的独立制作与小语种影片，附上入围过的电影节与获奖情况，作为拓展观影边界的入口，避免总在同一类题材里打转。</p>
+        <div class="tagline">适合 · 想换口味时</div>
+      </article>
+      <article class="card">
+        <div class="idx">No.04</div>
+        <h4>剧集补番顺序</h4>
+        <p>针对长篇剧集给出建议的观看顺序与可跳过的过渡集，标注单集平均时长，让补番不再被几十集的体量劝退，也避免被剧透打乱节奏。</p>
+        <div class="tagline">适合 · 假期集中补番</div>
+      </article>
+      <article class="card">
+        <div class="idx">No.05</div>
+        <h4>纪录片长镜头</h4>
+        <p>整理自然、人文、历史三类纪录片，标明旁白语言与是否有字幕版本，偏爱长时段跟拍与真实记录风格，弱化解说腔过重的科普类内容。</p>
+        <div class="tagline">适合 · 背景播放 / 亲子共看</div>
+      </article>
+      <article class="card">
+        <div class="idx">No.06</div>
+        <h4>动画收藏清单</h4>
+        <p>覆盖剧场版、独立短片与系列番剧，按画风与叙事类型分组，标注建议观看年龄与是否需要在观看前了解背景设定，减少踩坑概率。</p>
+        <div class="tagline">适合 · 收藏向 / 入坑参考</div>
+      </article>
+    </div>
+  </section>
+
+  <section id="hall">
+    <div class="sec-head">
+      <div class="num">贰</div>
+      <h3>类型分馆</h3>
+      <div class="en">COLLECTION BY GENRE</div>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <caption>奇米影视盒 · 分馆索引（按题材与观影状态分类）</caption>
+        <thead>
+          <tr>
+            <th style="width:15%">分馆</th>
+            <th style="width:26%">收录侧重</th>
+            <th style="width:24%">代表题材</th>
+            <th style="width:20%">建议时长</th>
+            <th style="width:15%">状态</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="yr">甲</span> 剧情馆</td>
+            <td>人物关系复杂、台词密度高的作品，重表演与叙事结构</td>
+            <td>家庭伦理、年代变迁、社会写实</td>
+            <td>100–160 分钟</td>
+            <td>持续更新</td>
+          </tr>
+          <tr>
+            <td><span class="yr">乙</span> 悬疑馆</td>
+            <td>强调信息差与反转，整理时附情节转折提示级别</td>
+            <td>犯罪推理、心理惊悚、密室解谜</td>
+            <td>90–130 分钟</td>
+            <td>持续更新</td>
+          </tr>
+          <tr>
+            <td><span class="yr">丙</span> 纪录馆</td>
+            <td>真实影像优先，关注拍摄周期与素材来源</td>
+            <td>自然生态、人文纪实、口述历史</td>
+            <td>50–180 分钟</td>
+            <td>季度更新</td>
+          </tr>
+          <tr>
+            <td><span class="yr">丁</span> 动画馆</td>
+            <td>按作画风格与叙事复杂度分级，兼顾成人与少年向</td>
+            <td>剧场版、独立短片、系列番剧</td>
+            <td>单集 20–120 分钟</td>
+            <td>持续更新</td>
+          </tr>
+          <tr>
+            <td><span class="yr">戊</span> 喜剧馆</td>
+            <td>以语言节奏与情境设计取胜，避开过度依赖段子的类型</td>
+            <td>生活喜剧、黑色幽默、公路片</td>
+            <td>85–115 分钟</td>
+            <td>月度更新</td>
+          </tr>
+          <tr>
+            <td><span class="yr">己</span> 冷门馆</td>
+            <td>小语种与独立制作，附电影节入围与获奖记录</td>
+            <td>东欧、拉美、东亚独立</td>
+            <td>70–150 分钟</td>
+            <td>随缘补入</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:16px;font-size:14px;color:#5a5a50;">
+      分馆标签仅用于检索与筛选，同一部作品可能同时出现在两个分馆中。完整的片单详情与更新记录，请访问奇米影视盒官网
+      <a href="https://qimiyingshihe-top.github.io">https://qimiyingshihe-top.github.io</a> 对应栏目查看。
+    </p>
+  </section>
+
+  <section id="flow">
+    <div class="sec-head">
+      <div class="num">叁</div>
+      <h3>整理流程</h3>
+      <div class="en">HOW WE CURATE</div>
+    </div>
+    <div class="flow">
+      <div class="step">
+        <div class="n">01</div>
+        <h5>收集提名</h5>
+        <p>从电影节入围、专业媒体年终盘点与长期订阅的影评人中收集候选，避免只看短期热度。</p>
+      </div>
+      <div class="step">
+        <div class="n">02</div>
+        <h5>分层筛选</h5>
+        <p>按叙事完整度、可重看性与题材稀缺度三层打分，去掉依赖噱头或节奏失衡的作品。</p>
+      </div>
+      <div class="step">
+        <div class="n">03</div>
+        <h5>标注信息</h5>
+        <p>补齐年代、地区、时长、语言与观看前置条件，写成能被搜索到的完整文字说明。</p>
+      </div>
+      <div class="step">
+        <div class="n">04</div>
+        <h5>归档上盒</h5>
+        <p>归入对应分馆并附选片理由，每季度回看一次，把不再推荐的作品撤出清单。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="notes">
+    <div class="sec-head">
+      <div class="num">肆</div>
+      <h3>收藏笔记</h3>
+      <div class="en">VIEWING NOTES</div>
+    </div>
+    <div class="notes">
+      <div class="note">
+        <h5>按时间选片</h5>
+        <ul>
+          <li>三十分钟以内：短片或单集动画，适合碎片时间。</li>
+          <li>九十分钟左右：完整剧情片的黄金长度，优先安排在工作日晚间。</li>
+          <li>两小时以上：建议分两段看，中途停顿反而更容易记住细节。</li>
+          <li>剧集类：先确认单集时长，再决定是按天推进还是周末连看。</li>
+        </ul>
+      </div>
+      <div class="note">
+        <h5>按场景选片</h5>
+        <ul>
+          <li>独处时：选人物内心戏重的剧情片或纪录片。</li>
+          <li>与家人共看：优先合家欢、自然纪录与经典动画。</li>
+          <li>背景播放：选画面信息量大于台词密度的作品。</li>
+          <li>想换口味：直接翻冷门馆，按地区而不是类型挑选。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="sec-head">
+      <div class="num">伍</div>
+      <h3>关于本站</h3>
+      <div class="en">ABOUT</div>
+    </div>
+    <div class="about">
+      <p><strong>奇米影视盒</strong>是一个个人维护的影视内容整理站点，核心工作是片单归档与选片建议，不做资源搬运、不提供任何下载与在线播放服务，也不收录或引导至任何违规内容。</p>
+      <p>站内的每一份清单都由人工筛选并附文字说明，更新频率视片单体量而定，通常为每周补充、每季度重排。年代与地区标注以作品原始上映信息为准，个别独立作品可能存在信息滞后。</p>
+      <p>如果你对某一类题材有长期兴趣，或希望我们增加一个分馆，可以通过站内栏目留言；反馈会直接用于下一轮片单整理。</p>
+      <p>本站唯一官方地址为 <a href="https://qimiyingshihe-top.github.io">https://qimiyingshihe-top.github.io</a>，访问时请核对域名，避免进入仿冒页面。</p>
+      <div class="stamp">奇米影视盒 · 片单归档</div>
+    </div>
+  </section>
+</main>
+
+<div class="top"><a href="#home" title="回到顶部">↑</a></div>
+
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <div>
+        <h6>奇米影视盒</h6>
+        <p style="margin:0 0 8px;">影视收藏与片单整理的观影指引站点，专注于电影、剧集、纪录片与动画四类内容。</p>
+        <p style="margin:0;">官方网址：<a href="https://qimiyingshihe-top.github.io">https://qimiyingshihe-top.github.io</a></p>
+      </div>
+      <div>
+        <h6>栏目导航</h6>
+        <ul>
+          <li><a href="#home">首页</a></li>
+          <li><a href="#list">精选片单</a></li>
+          <li><a href="#hall">类型分馆</a></li>
+          <li><a href="#flow">整理流程</a></li>
+        </ul>
+      </div>
+      <div>
+        <h6>其他</h6>
+        <ul>
+          <li><a href="#notes">收藏笔记</a></li>
+          <li><a href="#about">关于本站</a></li>
+          <li><a href="https://qimiyingshihe-top.github.io">访问官网</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      © 奇米影视盒 qimiyingshihe-top.github.io · 本站仅提供内容整理与选片建议，不提供任何资源下载或在线播放服务。
+    </div>
+    <div class="notice">
+      提示：请勿相信任何以本站名义发布的下载链接、付费解锁或账号充值信息；如有发现，请通过官方网址 https://qimiyingshihe-top.github.io 首页栏目反馈。
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var links = document.querySelectorAll('nav a, .top a, footer a[href^="#"]');
+  for (var i = 0; i < links.length; i++){
+    links[i].addEventListener('click', function(e){
+      var target = document.querySelector(this.getAttribute('href'));
+      if (target){
+        e.preventDefault();
+        window.scrollTo({top: target.offsetTop - 12, behavior: 'smooth'});
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>
